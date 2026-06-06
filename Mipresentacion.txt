@@ -1,1 +1,44 @@
-Hola 
+Hola
+Este espacio es para que podamos aprender comandos basicos:
+
+primer comando para inicializar un proyecto
+
+git init
+
+primer comando se encarga de poder configurar los elementos de la computadora
+con el repositorio
+
+git config --global user.name "tunombredeusuario"
+git config --global user.email "tuemail"
+
+Esos dos elementos se obtienen de la cuenta de GitHub
+
+Nota: Estos comandos solo se registran una sola vez en una computadora personal
+
+
+Ahora para cargar los archivos del proyecto comando:
+git add .   //cargar todos los archivos
+git add nombredelarchivo
+
+
+Comando para ver estado 
+git status
+
+Para el manejo de ramas
+git branch es para crear una rama
+
+La rama master es por defecto, y esta es un estandar viejo de GitHub
+La rama main es la principal del proyecto que desde hace 10 años se estandarizo
+
+el comando para entrar a una rama
+git checkout nombredelarama
+
+el comando git remote add origin lo que hace es enlazar el repositorio local (lo que esta en tu pc) con el repositorio remoto (lo que va a estar en linea)
+
+el comando 
+git commit -m "aqui va una descripcion de los cambios que se hicieron"
+
+sirve para tomar "una fografia de todo lo que hemos hecho"
+
+este comando sirve para subir los cambios a la rama
+git push origin rama
